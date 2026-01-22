@@ -16,6 +16,15 @@
                 Please Enter The Todo Description
             </div>
         </div>
+        <div class="mb-3">
+            <label for="category_id" class="form-label">Category</label>
+            <select class="form-select" id="category_id" name="category_id">
+                <option value="" {% if not place.category_id %}selected{% endif %}>Select a category</option>
+                {% for category in categories %}
+                <option value="{{ category.id }}" {% if place.category_id == category.id %}selected{% endif %}>{{ category.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
         <button type="submit" class="btn btn-outline-primary">{{ title.btn }}</button>
     </form>
 </div>
