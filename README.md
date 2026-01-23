@@ -54,4 +54,4 @@ A live demo of the Flask Todo App can be accessed at [https://flaskapptodo.onren
 
 The Flask Todo App's source code is available on GitHub at [https://github.com/PrathameshDhande22/FlaskTutorial-Todo-App](https://github.com/PrathameshDhande22/FlaskTutorial-Todo-App).
 
-## Author : Prathamesh Dhande.
+## Author : Prathamesh Dhande..
